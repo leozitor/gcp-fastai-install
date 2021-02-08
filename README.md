@@ -1,7 +1,8 @@
 # How to config JupyterLab in GCP with Fastai and Pytorch 1.7.1
 [![](https://img.shields.io/badge/version-1.0.0-green.svg)](https://semver.org)
 
-During these days using Google Cloud Platform Ai Platform Notebook creation i have found a lots of issues using the
+#### This guide shows an  easy way to Create a Google Platform AI platform notebooks in GCP with latest version of Fastai, Pytorch, CUDA drivers, python, JupyterLab everything ready and up-to-date to start developing  Deep Learning models using using GPUs
+During these days using GCP Ai Platform Notebooks creation, I have found a lots of issues using the
 out-of-box images they have available:
 * Python out of date ( version 3.7, until now latest version is python 3.9.1)
 * JupyterLab out of date ( version 1.2, until now latest version is python 3.0.7)
@@ -17,11 +18,11 @@ required to run Fastai Deep Learning projects.
 I spent lots of days testing some combinations of VMs, containers and installations,
 after i reached final a good solution.
 
-Here I will share the best way that I found (maybe a better one is possible, feel free to share here if you know it :) )
+Here I will share the best way that I found ( maybe a better one is possible, feel free to share here if you know it :) )
 to create a GCP Notebook instance and have everything updated and running with GPU processing and everything to get started
 to Deep Learning.
 
-## Prerequisites
+### Prerequisites
 
 First you need to Create a GCP Notebook Instance as follows:
 
@@ -46,7 +47,7 @@ The Hardware and machine type can be whatever you prefer, but I recommend the fo
 ![Instance Configs](images/2.jpg)
 
 
-## Installing
+### Installing
 
 
 After Creating the Instance and it starts up, click "Open JupyterLab" and open terminal
@@ -102,18 +103,25 @@ Now restart JupyterLab
 ![Instance Configs](images/5.jpg)
 
 **Now your ready to go and start coding**
+<!--
+## Deployment
 
+Add additional notes about how to deploy this on a live system
 
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+-->
 ## Software Version
 * **Python v3.9.1**
 * **Pytorch v1.7.1**
 * **Fastai v2.2.5**
 * **Nvidia Cuda Driver 11**
 * **JupyterLab v3.0.7**
-## Author Guide
-* **Leozítor Floro de Souza** - [Github](https://github.com/leozitor)
+## Author
 
-## Acknowledgment
-* [Fastai Website](https://www.fast.ai)
-* [Fastai Forums](https://forums.fast.ai)
-* [Fastai GitHub](https://github.com/fastai)
+* **Leozítor Floro de Souza** - [Github](https://github.com/leozitor)
