@@ -1,7 +1,7 @@
 # How to config JupyterLab in GCP with Fastai and Pytorch 1.7.1
 [![](https://img.shields.io/badge/version-1.0.0-green.svg)](https://semver.org)
 
-#### This guide shows an  easy way to Create a Google Platform AI platform notebooks in GCP with latest version of Fastai, Pytorch, CUDA drivers, python, JupyterLab everything ready and up-to-date to start developing  Deep Learning models using using GPUs
+#### This guide shows an  easy way to Create a Google Platform AI platform notebooks in GCP with latest version of Fastai, Pytorch, CUDA drivers, python, JupyterLab everything ready and up-to-date to start developing  Deep Learning models using  GPUs
 During these days using GCP Ai Platform Notebooks creation, I have found a lots of issues using the
 out-of-box images they have available:
 * Python out of date ( version 3.7, until now latest version is python 3.9.1)
@@ -125,3 +125,9 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Author
 
 * **Leozítor Floro de Souza** - [Github](https://github.com/leozitor)
+
+## Acknowledgment
+ * [Fastai Website](https://www.fast.ai)
+ * [Fastai Forums](https://forums.fast.ai)
+ * [Fastai GitHub](https://github.com/fastai)
+ * [Fastai GCP Config](https://course.fast.ai/start_gcp)
