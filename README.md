@@ -17,11 +17,11 @@ required to run Fastai Deep Learning projects.
 I spent lots of days testing some combinations of VMs, containers and installations,
 after i reached final a good solution.
 
-Here I will share the best way that I found ( maybe a better one is possible, feel free to share here if you know it :) )
+Here I will share the best way that I found (maybe a better one is possible, feel free to share here if you know it :) )
 to create a GCP Notebook instance and have everything updated and running with GPU processing and everything to get started
 to Deep Learning.
 
-### Prerequisites
+## Prerequisites
 
 First you need to Create a GCP Notebook Instance as follows:
 
@@ -46,7 +46,7 @@ The Hardware and machine type can be whatever you prefer, but I recommend the fo
 ![Instance Configs](images/2.jpg)
 
 
-### Installing
+## Installing
 
 
 After Creating the Instance and it starts up, click "Open JupyterLab" and open terminal
