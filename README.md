@@ -113,7 +113,7 @@ Now restart JupyterLab
 ## Author Guide
 * **Leozítor Floro de Souza** - [Github](https://github.com/leozitor)
 
-##Acknowledgment
+## Acknowledgment
 * [Fastai Website](https://www.fast.ai)
 * [Fastai Forums](https://forums.fast.ai)
 * [Fastai GitHub](https://github.com/fastai)
